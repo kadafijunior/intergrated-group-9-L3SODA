@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.quiz {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+<body>
+    <div class="quiz">
+        <h2>Quiz Game</h2>
+        <div class="question">
+            <p>What is the capital of France?</p>
+            <input type="radio" name="q1" value="london"> London<br>
+            <input type="radio" name="q1" value="paris"> Paris<br>
+            <input type="radio" name="q1" value="berlin"> Berlin<br>
+            <input type="radio" name="q1" value="rome"> Rome<br>
+        </div>
+        <div class="question">
+            <p>What is the largest planet in our solar system?</p>
+            <input type="radio" name="q2" value="earth"> Earth<br>
+            <input type="radio" name="q2" value="mars"> Mars<br>
+            <input type="radio" name="q2" value="jupiter"> Jupiter<br>
+            <input type="radio" name="q2" value="saturn"> Saturn<br>
+        </div>
+        <button>Submit</button>
+    </div>
+</body>
+</html>
